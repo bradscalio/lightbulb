@@ -24,6 +24,15 @@ vi ~/.ansible.cfg
 # add forks and retry_files_save_path
 
 ```
+## DETERMINE PYTHON VERSION
+
+From control machine:
+
+```bash
+sudo yum list installed python
+
+python -c ‘import sys; print(sys.version)’
+```
 
 ## NOTE
 
